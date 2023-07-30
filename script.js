@@ -51,28 +51,45 @@ window.onscroll = () => {
 // ScrollReveal().reveal('.home-content h1, .about-img', {origin:'left'});
 // ScrollReveal().reveal('.home-content p, .about-content', {origin:'right'});
 
-// const typed = new Typed('.multiple-text', {
-//     strings: ['Web Developer!'],
-//     typeSpeed: 100,
-//     backSpeed: 100,
-//     backDelay: 1000,
-//     loop: true
-// });
+const typed = new Typed('.multiple-text', {
+    strings: ['Web Developer!', 'App Developer!'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
 
-function toggleVisibility(){
-    var content = document.getElementById("content");
-    var read = document.getElementById("read");
-    var show = document.getElementById("show");
-    var head = document.getElementById("head");
+// function toggleVisibility(){
+//     var content = document.getElementById("content");
+//     var read = document.getElementById("read");
+//     var show = document.getElementById("show");
 
-    if(content.style.display === "none"){
-        content.style.display = "inline";
+//     if(content.style.display === "none"){
+//         content.style.display = "inline";
+//         read.innerHTML = "Read More";
+//         show.style.display = "none";
+//     }
+//     else{
+//         content.style.display = "none";
+//         read.innerHTML = "Read Less";
+//         show.style.display = "inline";
+//     }
+// }
+
+function toggle(hobby){
+
+let dots = document.querySelector(`.hobby-box[data-hobby="${hobby}"] #dots`);
+let more = document.querySelector(`.hobby-box[data-hobby="${hobby}"] #more`);
+let read = document.querySelector(`.hobby-box[data-hobby="${hobby}"] #read`);
+
+    if(dots.style.display === "none"){
+        dots.style.display = "inline";
         read.innerHTML = "Read More";
-        show.style.display = "none";
+        more.style.display = "none";
     }
     else{
-        content.style.display = "none";
+        dots.style.display = "none";
         read.innerHTML = "Read Less";
-        show.style.display = "inline";
+        more.style.display = "inline";
     }
 }
