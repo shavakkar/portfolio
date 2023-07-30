@@ -24,7 +24,7 @@
                 <a href="#contact">Contact</a>
             </nav>
         </header>
-
+        <!-- ="Bharathi_resume.pdf" -->
         <section class="home" id="home">
             <div class="home-content">
                 <h3>Hello, it's Me</h3>
@@ -35,31 +35,34 @@
                 </p>
                 <div class="social-media">
                     <a href="https://github.com/shavakkar" target="_blank"><i class="bx bxl-github"></i></a>
-                    <a href="#" target="_blank"><i class="bx bxl-gmail"></i></a>
+                    <!-- <a href="#" target="_blank"><i class="bx bxl-gmail"></i></a> -->
                     <a href="https://www.instagram.com/shavakkar/" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
                     <a href="https://www.linkedin.com/in/bharathi-shavakkar" target="_blank"><i class="bx bxl-linkedin"></i></a>
                 </div>
-                <a href="./Bharathi_resume.pdf" download="Bharathi_resume.pdf" class="btn">Download CV</a>
+                <a href="" download class="btn">Download CV</a>
             </div>
 
             <div class="home-img">
-                <img src="./images/Bharathi Shavakkar.jpg" alt="Image - Bharathi Shavakkar">
+                <img src="./images/Bharathi Shavakkar K S.jpg" alt="Image - Bharathi Shavakkar">
             </div>
         </section>
 
         <section class="about" id="about">
             <div class="about-img">
-                <img src="./images/Bharathi Shavakkar K S.jpg" alt="Image of Bharathi Shavakkar">
+                <img src="./images/KSBS(1).jpg" alt="Image of Bharathi Shavakkar">
             </div>
 
             <div class="about-content">
                 <h2 class="heading">About <span>Me</span></h2>
-                <h3>Web Developer</h3>
+                <h3></h3>
                 <p>
                     Just a Passionate Guy, who likes Science stuffs and being nerdy about whatever that makes me get interested with it. <br>Sometimes I'm a Normal Human who shows all the emotions. <br> I like to be Sportive and Calm, and also show Sympathy and care to everyone, Being good and kind doesn't cost us anything right?<br> Buddhism made be cool and simple, I prefer traditional lifestyle yet I can adapt well with changing trends.
-                    <br><br> If prefered... click below for more!
+                    <!-- <br><br> If prefered... click below for more! <span id="dots"></span>
+                    <span id="more">
+                        
+                    </span> -->
                 </p>
-                <a href="#" class="btn">Read More</a>
+                <!-- <a href="#more" id="read" onclick="toggle('about')" class="btn">Read More</a> -->
             </div>
         </section>
 
@@ -67,43 +70,66 @@
             <h2 class="heading">My <span>Hobbies</span></h2>
 
             <div class="hobby-container">
-                <div class="hobby-box">
+                <div class="hobby-box" data-hobby="mediations">
                     <i class="bx bx-code-alt"></i>
                     <h3>Meditation</h3>
                     <p>
-                        As Buddha said to a person about what he gained from Mediation, he quoted 'Nothing, However let me tell you what I have lost: Anger, Anxiety, Depression, Insecuirty and fear of old age and death.' <br><br>
-                        Started this Journey when I was 15 years old (Grade 10). It really gave me an optimistic life, but there should be very strong willingness to get complete use of it. So, I used to meditate regulary by morning and evening, the duration I started was from just 1 min, and it moved to 30 mins.... 
+                        As Buddha said to a person about what he gained from Mediation, he quoted 'Nothing, However let me tell you what I have lost: Anger, Anxiety, Depression, Insecuirty and fear of old age and death.' <br><br><span id="dots"></span>
+                        <span id="more">
+                        Started this Journey when I was 15 years old (Grade 10). It really gave me an optimistic life, but there should be very strong willingness to get complete use of it.<br><br> 
+                        For me, Everything that was considered bad is bad... No room for quantizing the amount of badness. I tried my best to spread positive vibes within me and around me. At a time, I stopped practising and after very long time, I starting to do with slow pace with no Expectations...
+                        </span>
                     </p>
                     <!-- <p>The days were very positive because of the mindset that I attained by the focus which was one of the outcome.</p> -->
-                    <a href="#" class="btn">Read More</a>
+                    <a href="#more" onclick="toggle('mediations')" id="read" class="btn">Read More</a>
                 </div>
                 
-                <div class="hobby-box">
+                <div class="hobby-box" data-hobby="lyrics">
                     <i class="bx bx-music"></i>
                     <h3>Lyric Writing</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fugiat libero explicabo voluptas corrupti laboriosam ullam repellendus itaque placeat pariatur cumque doloribus maxime, quaerat aut esse consectetur illum reiciendis iste alias, officia perferendis. Odit nesciunt mollitia quam minima iusto voluptas.
+                    <p class="content">
+                        I love Musics. The Rhytm and Harmony is what gives the Spine Chilling GooseBumps. While I was Grade 9th, I wrote my first Song.
+                        I used to imagine the music and compose the song.
+                        <br><br><span id="dots"></span>
+                        <span id="more">I'm sorry for that, But mostly I wrote English Songs.
+                        My inspiration will be a joke for many, But I like him, "Justin Bieber". I like him, but these days I'm not into his new songs, just pretty old good songs of him.
+                        <br><br>
+                        My songs had some imitation like JB. Tried rap, but my dictation isn't good enough. But I dont know why, But this Lyric Writing got vanished while I was starting grade 12, maybe I got ran out of words :b 
+                        <br>These Days I hum or sing the words with the Tune that feels Good.
+                    </span>
                     </p>
-                    <a href="#" class="btn">Read More</a>
+                    <a href="#more" onclick="toggle('lyrics')" id="read" class="btn">Read More</a>
                 </div>
 
-                <div class="hobby-box">
+                <div class="hobby-box" data-hobby="arts">
                     <i class="bx bx-pencil"></i>
                     <h3>Arts & Drawing</h3>
-                    <p>
-                        From my childhood I liked to draw, but it was the BullDozer, JCB Backhoe Loader, then Excavator... This started when my father drew the JCB on the floor with Slate pencils. I was Amused! My father has this one of his skills. Then I got Impressed with Cars. The art I made were appreciated by my classmates while I was studying Grade 3. Sooner I got love with Military Tanks, Guns, Death Cars kind of cars and the list goes on. My inspiration were mind blowing cars like Trust SSC, Tumbler (from Batman), Fast and Furious... 
+                    <p class="content">
+                        From my childhood I liked to draw, but it was a BullDozer, JCB Backhoe Loader, then Excavator... This started when my father drew the JCB on the floor with Slate pencils. I was Amused as he do too Good!
+                        <br><br><span id="dots"></span>
+                        <span id="more">Then I got Impressed with Cars. The art I made were appreciated by my classmates while I was studying Grade 3 onwards. Sooner I got love with Military Tanks, Guns, Death Cars kind of cars and the list goes on. 
+                        <br><br>
+                        My inspiration were mind blowing cars like Trust SSC, Tumbler (from Batman), Fast and Furious cars... Many Muscle cars, Hyper cars, like Mustangs, Ford GT, Koenigsegg, BMW, Lamborghini, Coupe, Hatchback, kind of brands and body type cars are my favorite to draw and Design.
+                    </span>
                     </p>
-                    <a href="#" class="btn">Read More</a>
+                    <a href="#more" onclick="toggle('arts')" id="read" class="btn">Read More</a>
                 </div>
 
-                <div class="hobby-box">
+                <div class="hobby-box" data-hobby="dance">
                     <i class="bx bx-code-alt"></i>
                     <h3>Dancing</h3>
-                    <p>
-                        I'm not a good dancer to be honest! But I try my best and practice a lot. So when I was in Grade 5, me and neighbour friends danced for some songs for a function that we conduct in our street, and that my friends used to tease me that I'm a Dancer and Micheal Jackson blah blah blah.... Then, during this Covid-19 holidays I thought it will be good to do some physical activities and I tried.
-
+                    <p class="content">
+                        I'm not a good dancer to be honest! But I try my best and practice a lot. I feel my bones and joints getting a good work. I want to feel like a pro who dances so Clean with perfection. 
+                        <br><br><span id="dots"></span>
+                        <span id="more">
+                        So when I was in Grade 5, me and neighbour friends danced for some songs for a function that we conduct in our street, and all used to tease me that I'm a Dancer and Micheal Jackson blah blah blah.... <br><br>
+                        Then, during this Covid-19 holidays I thought it will be good to do some physical activities and I tried to dance with BTS song, because they dance are so good.
+                        <br>
+                        (Warning: I'm Not a BTS FAN!!!)<br>
+                        And These days Dancing makes me happy and energetic.
+                        </span>
                     </p>
-                    <a href="#" class="btn">Read More</a>
+                    <a href="#more" id="read" onclick="toggle('dance')" class="btn">Read More</a>
                 </div>
             </div>
         </section>
@@ -117,9 +143,9 @@
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            3 Column Preview Card Component
                         </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/shavakkar/FrontEnd-Mentor-Newbie" target="_blank"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
                 <div class="portfolio-box">
@@ -127,9 +153,9 @@
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Product Preview Card Component
                         </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/shavakkar/FrontEnd-Mentor-Newbie" target="_blank"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
                 <div class="portfolio-box">
@@ -137,9 +163,9 @@
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Huddle Landing Page
                         </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/shavakkar/FrontEnd-Mentor-Newbie" target="_blank"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
                 <div class="portfolio-box">
@@ -147,9 +173,9 @@
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            NFT Preview Card Component
                         </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/shavakkar/FrontEnd-Mentor-Newbie" target="_blank"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
                 <div class="portfolio-box">
@@ -157,9 +183,9 @@
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Order Summary Card Component
                         </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/shavakkar/FrontEnd-Mentor-Newbie" target="_blank"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
                 <div class="portfolio-box">
@@ -167,9 +193,9 @@
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Four Card Feature Card Component
                         </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/shavakkar/FrontEnd-Mentor-Newbie" target="_blank"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
                 <div class="portfolio-box">
@@ -177,9 +203,9 @@
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Social Proof Section
                         </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/shavakkar/FrontEnd-Mentor-Newbie" target="_blank"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
                 <div class="portfolio-box">
@@ -187,9 +213,9 @@
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Result Summary Section
                         </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/shavakkar/FrontEnd-Mentor-Newbie" target="_blank"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
                 <div class="portfolio-box">
@@ -197,20 +223,29 @@
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Single Price Grid Section
                         </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/shavakkar/FrontEnd-Mentor-Newbie" target="_blank"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
-                
+                <div class="portfolio-box">
+                    <img src="./images/profile card.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>
+                            Profile Card Component
+                        </p>
+                        <a href="https://github.com/shavakkar/FrontEnd-Mentor-Newbie" target="_blank"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
                 <div class="portfolio-box">
                     <img src="./images/qr.jpg" alt="">
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            QR Card Component
                         </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/shavakkar/FrontEnd-Mentor-Newbie" target="_blank"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
                 <div class="portfolio-box">
@@ -218,19 +253,9 @@
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Stats Preview Card Component
                         </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="./images/stats.jpg" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/shavakkar/FrontEnd-Mentor-Newbie" target="_blank"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
             </div>
@@ -239,7 +264,7 @@
         <section class="contact" id="contact">
             <h2 class="heading">Contact <span>Me!</span></h2>
 
-            <form action="mailto:jhonjet77@gmail.com" method="get" enctype="text/plain">
+            <form action="mailto:shavakkar@gmail.com" method="get" enctype="text/plain">
                 <div class="input-box">
                     <input type="text" placeholder="Full Name" name="userName" id="userName">
                     <input type="email" placeholder="Email Address" name="email" id="email">
@@ -265,7 +290,7 @@
 
         <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
 
-        <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
         <script src="script.js"></script>
     </body>
