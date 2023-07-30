@@ -11,10 +11,10 @@
 }
 
 :root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
+    --bg-color: #009FBD;
+    --second-bg-color: #187498;
     --text-color: #fff;
-    --main-color: #0ef;
+    --main-color: #F6BA6F;
 }
 
 html{
@@ -82,7 +82,8 @@ section{
 }
 
 .home-img img{
-    width: 35vw;
+    width: 25vw;
+    border-radius: 20px;
 }
 
 .home-content h3{
@@ -154,7 +155,8 @@ span{
 }
 
 .about-img img{
-    width: 35vw;
+    width: 25vw;
+    border-radius: 20px;
 }
 
 .heading{
@@ -196,6 +198,7 @@ span{
     text-align: center;
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
+    /* min-height: 450px; */
 }
 
 .hobby-container .hobby-box:hover{
@@ -372,7 +375,7 @@ span{
     color: var(--second-bg-color);
 }
 
-#show{
+#more{
     display: none;
     color: #fff;
 }
@@ -381,6 +384,10 @@ span{
     html{
         font-size: 55%;
     }
+    /* .hobby-container .hobby-box{
+        width: 290px;
+        height: 685px;
+    } */
 }
 
 @media (max-width: 991px) {
